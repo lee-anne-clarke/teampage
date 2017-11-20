@@ -1,0 +1,244 @@
+//SASS file used for Modern Signal client employee page: http://lee-anne-clarke.com/work/teampage/
+
+
+body {
+	background-color: #efefef;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+h1 {
+	font-family: "PT Sans Narrow", sans-serif;
+}
+
+h2 {
+    font-size: 15px;
+    color: #009EC3;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+/*---------------------------------------------------
+	Filter
+---------------------------------------------------*/
+
+.filterwrap,
+.viewall {
+	text-align: center;
+}
+
+.filterwrap {
+	margin-top: 20px;
+}
+
+.filterby {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn-1,
+.btn-2 {
+	display: block;
+	background: none;
+	color: #009EC3;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	&:active,
+	&.active {
+		color: #009EC3;
+		box-shadow: none;
+		border: 2px solid #009fc5;
+		border-radius: 0;
+	}
+}
+
+.btn-2 {
+	margin-top: 10px;
+}
+
+.viewall {
+	visibility: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	button {
+		background: none;
+		border: none;
+	}
+}
+
+.btn.active ~ .viewall {
+	visibility: visible;
+}
+
+
+/*---------------------------------------------------
+	Employee boxes
+---------------------------------------------------*/
+
+.employees {
+	text-align: center;
+	overflow: hidden;
+}
+
+.employee__box {
+	display: none;
+	position: relative;
+	max-width: 232px;
+	margin-bottom: 40px;
+	border: 1px solid white;
+	
+	&:hover {cursor: pointer;}
+
+	img {max-width: 100%;}
+
+	&:before,
+	&:after {
+		position: absolute;
+		opacity: 0;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+	}
+	
+	&:after {
+		content: '\A';
+		width: 100%; 
+		height: 74%;
+		top: 0; 
+		left: 0;
+		background:rgba(0,164,203,0.6);
+	}
+	
+	&:hover:before,
+	&:hover:after {
+		opacity: 1;
+	}
+}
+
+.employee__box__info {
+	background-color: #00a4cb;
+	text-align: left;
+	padding: 10px 0 10px 13px;
+	span {display: block !important;}
+}
+
+.employee__name {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+
+.employee__title {
+	color: white;
+}
+
+
+/*---------------------------------------------------
+	Lightboxes
+---------------------------------------------------*/
+
+.lightbox {
+	max-width: 1170px;
+	max-height: 100%;
+    background-image: url(../img/lightbox-bg.jpg);
+    padding: 25px;
+	margin: auto 5%;
+	border-bottom: 25px solid transparent;
+	overflow-y: auto;
+	img {max-width: 100%;}
+}
+
+.lightbox__close-wrap {
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.lightbox__close {
+	padding: 3px 10px;
+	border: 1px solid #ccc;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	
+	&:hover {
+		background-color: #009fc5;
+		border-color: #009fc5;
+		color: white;
+	}
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	overflow-y: hidden;
+}
+
+.no-overflow {
+  overflow-y: hidden;
+}
+
+
+/*---------------------------------------------------
+	Media queries
+---------------------------------------------------*/
+
+@media (min-width: 405px) {
+	.btn-1,
+	.btn-2 {
+		display: inline-block;
+	}
+
+	.btn-2 {
+		margin-top: 0;
+	}
+}
+
+
+@media (min-width: 405px) and (max-width: 991px) {
+	.lightbox img {max-width: 315px;}
+}
+
+
+@media (min-width: 497px) {
+	.viewall {
+		margin-top: 15px;
+	}
+	
+	.employee__box {
+		margin-left: -4px;
+		margin-right: -4px;
+		margin-bottom: -1px;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.overlay {padding-top: 70px;}
+	
+	.lightbox {max-height: 90%;}
+}
+
+
+@media (min-width: 1200px) {
+	.employees {
+		max-width: 930px;
+		margin: auto;
+	}
+}
+
+
+
+

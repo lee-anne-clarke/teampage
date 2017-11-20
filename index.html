@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+    <title>Employee Page</title>
+    
+    <!-- WEB FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- CORE CSS -->
+    
+    <link type="text/css" href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+
+    <div class="container">
+    
+	<!-- BREADCRUMBS -->
+        <ul class="breadcrumb">
+            <li><a href="#">home</a> </li>
+            <li><a href="#">about</a> </li>
+            <li>team </li>
+        </ul>
+    <!-- / BREADCRUMBS -->
+    
+    
+    <!-- CONTENT -->
+   
+         <main >
+            <h1>meet our team</h1>
+            
+
+    
+            <div class="filterwrap">
+                <p class="filterby">filter by:</p>
+    
+                <button class="btn btn-1 filter" data-filter=".filterCategory1">executive team</button>
+                
+                <button class="btn btn-2 filter" data-filter=".filterCategory2">practice leaders</button>
+                
+                <div class="viewall">
+                    <button class="filter" data-filter="all">view all team members</button>
+                </div><!--- /.viewall -->
+            </div><!--- /.filterwrap -->
+       
+            
+            <div id="teamFilter" class="employees row">
+            
+                <div class="employee__box mix filterCategory1" data-person="DestaNdidi">
+                    <img src="img/woman1.jpg" alt="Desta Ndidi">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Desta Ndidi</span>
+                        <span class="employee__title">Founder / Managing Partner</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+    
+                <div class="employee__box mix filterCategory1" data-person="MorganCameron">
+                    <img src="img/man1.jpg" alt="Morgan Cameron">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Morgan Cameron</span>
+                        <span class="employee__title">Founder / Senior Partner</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+                
+                <div class="employee__box mix filterCategory2" data-person="BrookeFumnanya">
+                    <img src="img/woman2.jpg" alt="Brooke Fumnanya">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Brooke Fumnanya</span>
+                        <span class="employee__title">Lead Creative Developer</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->        
+                
+                
+                <div class="employee__box mix filterCategory2" data-person="AlinafeWillie">
+                    <img src="img/man2.jpg" alt="Alinafe Willie">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Alinafe Willie</span>
+                        <span class="employee__title">Sustainable Programs Manager</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+                
+                <div class="employee__box mix filterCategory2" data-person="RavinderKennedy">
+                    <img src="img/woman3.jpg" alt="Ravinder Kennedy">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Ravinder Kennedy</span>
+                        <span class="employee__title">Commissioning Team Manager</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->   
+                
+                
+                <div class="employee__box mix" data-person="JayaKirabo">
+                    <img src="img/man3.jpg" alt="Jaya Kirabo">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Jaya Kirabo</span>
+                        <span class="employee__title">User Experience Revisionist</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box --> 
+                
+                
+                <div class="employee__box mix" data-person="MorganNikah">
+                    <img src="img/woman4.jpg" alt="Morgan Nikah">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Morgan Nikah</span>
+                        <span class="employee__title">DevOps Custodian</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+                <div class="employee__box mix" data-person="OdalisVivian">
+                    <img src="img/man4.jpg" alt="Odalis Vivian">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Odalis Vivian</span>
+                        <span class="employee__title">Strategic Partnership Amplifier</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+                <div class="employee__box mix" data-person="CameronTumelo">
+                    <img src="img/woman5.jpg" alt="Cameron Tumelo">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Cameron Tumelo</span>
+                        <span class="employee__title">Regional Factors Designer</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+                <div class="employee__box mix" data-person="PuckFlann">
+                    <img src="img/man5.jpg" alt="Puck Flann">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Puck Flann</span>
+                        <span class="employee__title">Human Resources Director</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+                <div class="employee__box mix" data-person="LondonKayden">
+                    <img src="img/woman6.jpg" alt="London Kayden">
+                    <div class="employee__box__info">
+                        <span class="employee__name">London Kayden</span>
+                        <span class="employee__title">Direct Mobility Assistant</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+    
+                <div class="employee__box mix" data-person="CareyAquila">
+                    <img src="img/woman7.jpg" alt="Carey Aquila">
+                    <div class="employee__box__info">
+                        <span class="employee__name">Carey Aquila</span>
+                        <span class="employee__title">Internal Research Assistant</span>
+                    </div><!-- /.employee__box__info -->
+                </div><!-- /.employee__box -->
+                
+            </div><!-- /.employees.row -->
+    
+    
+    
+            
+            <!-- *********** LIGHTBOXES *********** -->
+                
+            <div class="overlay">
+            
+                <div class="lightbox" id="DestaNdidi">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman1.jpg" alt="Desta Ndidi">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Desta Ndidi</h1>
+                            <h2>Founder / Managing Partner</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                        
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                    
+                    
+                    
+                <div class="lightbox" id="MorganCameron">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/man1.jpg" alt="Morgan Cameron">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Morgan Cameron</h1>
+                            <h2>Founder / Senior Partner</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="BrookeFumnanya">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman2.jpg" alt="Brooke Fumnanya">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Brooke Fumnanya</h1>
+                            <h2>Lead Creative Developer</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+    
+                <div class="lightbox" id="AlinafeWillie">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/man2.jpg" alt="Alinafe Willie">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Alinafe Willie</h1>
+                            <h2>Sustainable Programs Manager</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="RavinderKennedy">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman3.jpg" alt="Ravinder Kennedy">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Ravinder Kennedy</h1>
+                            <h2>Commissioning Team Manager</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="JayaKirabo">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/man3.jpg" alt="Jaya Kirabo">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Jaya Kirabo</h1>
+                            <h2>User Experience Revisionist</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="MorganNikah">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman4.jpg" alt="Morgan Nikah">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Morgan Nikah</h1>
+                            <h2>DevOps Custodian</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="OdalisVivian">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/man4.jpg" alt="Odalis Vivian">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Odalis Vivian</h1>
+                            <h2>Strategic Partnership Amplifier</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="CameronTumelo">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman5.jpg" alt="Cameron Tumelo">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Cameron Tumelo</h1>
+                            <h2>Regional Factors Designer</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="PuckFlann">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/man5.jpg" alt="Puck Flann">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Puck Flann</h1>
+                            <h2>Human Resources Director</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="LondonKayden">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman6.jpg" alt="London Kayden">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>London Kayden</h1>
+                            <h2>Direct Mobility Assistant</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+                <div class="lightbox" id="CareyAquila">
+                    <div class="row">
+                    
+                        <div class="lightbox__close-wrap">
+                            <button class="lightbox__close">X</button>
+                        </div>
+                    
+                        <div class="col-md-6 text-center">
+                            <img src="img/woman7.jpg" alt="Carey Aquila">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h1>Carey Aquila</h1>
+                            <h2>Internal Research Assistant</h2>
+                            
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus odio sed turpis condimentum, vitae commodo quam mattis. Praesent ac enim in dui tristique porta gravida ac ante. Nam tempor nibh quis lorem aliquet, ut sollicitudin urna condimentum. Duis id iaculis augue. Sed aliquam, nisi ac fringilla consectetur, purus lorem ultricies nibh, ut commodo diam est consectetur quam. Sed vel pharetra tortor. Proin id turpis nec lacus eleifend auctor. Sed ex tortor, pharetra vel malesuada condimentum, mollis ut quam. Nullam vestibulum sapien neque, et elementum nisi euismod non. Praesent felis nulla, fermentum sed tellus at, viverra tristique justo. Cras quis efficitur justo. Integer eu mi et leo volutpat dignissim. Vivamus ut sapien nec leo sodales imperdiet. Phasellus tempus placerat orci, ut efficitur tortor cursus in. Praesent a pharetra ligula. Fusce pellentesque sagittis elit nec efficitur.</p>
+        
+                            <p>Ut ultrices maximus feugiat. Maecenas eget nunc eget velit consectetur dignissim vitae facilisis eros. Maecenas commodo, purus ut posuere fringilla, nisl justo congue lectus, id blandit quam orci ut nisl. Nulla sollicitudin orci quis malesuada ultrices. Praesent lobortis mi sed nunc scelerisque cursus. Nam ornare neque quis lectus rutrum tincidunt. Curabitur mauris est, sollicitudin ut dui et, aliquet volutpat felis. Aenean a orci et justo fermentum condimentum. Nullam vel mauris eget massa cursus ultricies eget facilisis tellus. Vivamus non magna diam. Suspendisse eros orci, facilisis a augue eget, fringilla hendrerit lectus. </p>
+                            
+                            <button class="lightbox__close">back to team page</button>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+                </div><!-- /.lightbox -->
+                
+                
+                
+            </div><!-- /.overlay -->
+        
+    
+ 
+        </main>
+    </div><!--.container-->
+
+    <!-- / CONTENT -->
+                    
+
+
+
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    
+    <script>
+		$('#teamFilter').mixItUp();
+	</script>
+    
+    
+    
+
+    
+</body>
+</html>
